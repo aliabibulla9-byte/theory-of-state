@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Мнение | Независимый Казахстан</title>
+<meta name="description" content="Информационно-исторический проект о становлении независимого Казахстана и светском государстве в цифровую эпоху.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="bar"></div>
+<header class="nav"><a href="index.html" class="logo"><span class="sun"></span><span class="lt">Независимый Казахстан</span></a>
+<nav><a href="index.html">Главная</a><a href="history.html">Исторические события</a><a href="secular.html" class="navbtn">Светское государство</a><a href="opinion.html" class="act" aria-current="page">Мнение</a><a href="conclusion.html">Вывод и источники</a></nav>
+<button id="theme" aria-label="Светлая или тёмная тема">◐</button></header>
+<main class="w">
+<section id="s4" class="rv"><h2>Общественное мнение</h2>
+<p>Границы между свободой вероисповедания и безопасностью определяются не только законом, но и тем, как их понимает общество. Ниже четыре позиции для обсуждения. Это не результаты социологического исследования.</p>
+<div class="g2">
+<div class="c">Государство должно защищать общество от экстремизма.</div>
+<div class="c">Свобода религии — важное право человека.</div>
+<div class="c">Чрезмерный контроль может ограничить законные убеждения.</div>
+<div class="c">Просвещение и профилактика могут быть эффективнее одних запретов.</div></div>
+<div class="qrbox c"><div id="qr"></div><div><h3>Прими участие в исследовании</h3><p>Отсканируйте код или нажмите кнопку. Опрос анонимный: мы не собираем имена, почту и телефоны.</p><a class="btn" href="#poll">Пройти опрос</a><p class="sm" id="qrl"></p></div></div>
+<div id="poll"><h3>Какой подход государства к религиозному контенту в интернете вы считаете наиболее правильным?</h3>
+<p id="mode" class="sm"></p>
+<div id="opts"></div><button class="btn" id="vote" disabled>Проголосовать</button>
+<div id="out" hidden><div id="res"></div><p id="tot"></p><p id="cm" class="sm"></p></div></div>
+</section>
+</main>
+<footer><div class="w">Независимый Казахстан. Учебный информационно-исторический проект.</div></footer>
+<button id="up" hidden aria-label="Наверх">↑</button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
